@@ -1,0 +1,78 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+ 
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
+
+
+
+.barraNav {
+  background-color:black;
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
+  justify-items: center;
+  color: white;
+
+ }
+
+ .headerPizza {
+  display: flex;
+  flex-direction: column;
+  height: 10vh;
+  width: 100vw;
+  padding: 10em;
+  align-items: center;
+  justify-content: center;
+  background-image: url('./assets/img/bannerPizza.JPG');
+  color:white;
+  background-size: cover;
+  background-position: center;
+ }
+
+ .card {
+  width:30vw;
+ }
+
+ .cardsMostrar {
+  display: flex;
+ }
+
+ .piePagina {
+  background-color: black;
+  color:white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding:2em;
+ }
+ .register {
+  display:flex;
+  padding: 5rem;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+ }
+
+ .formulario {
+  display:flex;
+  flex-direction: column;
+ }
